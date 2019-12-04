@@ -4,6 +4,10 @@ $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 
+$color-grey-dark: #777;
+$color-white: #fff;
+$color-black: #000;
+
 
 *, *::after, *::before {
   margin: 0;
@@ -20,7 +24,7 @@ body {
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: #777;
+  color: $color-grey-dark;
   padding: 3rem;
   box-sizing: border-box;
 }
@@ -128,7 +132,7 @@ body {
 
 .btn--white {
   background-color: #fff;
-  color: #777;
+  color: $color-grey-dark;
 }
 
 .button--holder {
@@ -141,12 +145,12 @@ body {
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba($color-black, 0.2);
 }
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px rgba($color-black, 0.5);
 }
 
 .space{
