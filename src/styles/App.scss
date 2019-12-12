@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "abstracts/functions";
+
+@import "base/base";
+@import "base/animations";
+@import "base/utilities";
+@import "base/typography";
+
+@import "pages/home";
+
+@import "components/header"
